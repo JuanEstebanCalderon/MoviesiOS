@@ -7,20 +7,18 @@
 
 import UIKit
 
-class CustomImage: UIImageView {
+class ImageCustom: UIImageView {
     init(image: UIImage? = .init(systemName: "photo.circle.fill"), cornerRadius: CGFloat = 0, contentMode: UIView.ContentMode = .scaleAspectFit) {
         super.init(image: image)
         self.translatesAutoresizingMaskIntoConstraints = false
-        layer.cornerRadius = cornerRadius
+        self.layer.cornerRadius = cornerRadius
         self.contentMode = contentMode
-        clipsToBounds = true
-    }
-    
-    override init(frame: CGRect) {
-        super.init(frame: frame)
+        self.clipsToBounds = true
     }
     
     required init?(coder: NSCoder) {
         fatalError("initialcode:) has not been implemented")
     }
 }
+
+

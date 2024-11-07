@@ -7,7 +7,7 @@
 
 import UIKit
 
-class CustomStack: UIStackView {
+class StackCustom: UIStackView {
     func addSubViews(_ views: [UIView]) {
         views.forEach {
             self.addArrangedSubview( $0 )

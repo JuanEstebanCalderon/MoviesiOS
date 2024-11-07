@@ -15,7 +15,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             window = UIWindow(frame: UIScreen.main.bounds)
             window?.makeKeyAndVisible()
             window?.backgroundColor = .orange
-            window?.rootViewController = MovieDetailViewController(movie: Movie(poster: "", title: "", releaseDate: "", genres: [""], description: ""))
+            // window?.rootViewController = MovieDetailViewController(movie: Movie(id: 1, title: "",release_date: "",genres: [""], overview: "",favorite: false,vote_average: 0,poster_path: URL(string: "")))
+            window?.rootViewController = MoviesListViewController()
             return true
         }
 }

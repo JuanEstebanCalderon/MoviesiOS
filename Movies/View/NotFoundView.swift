@@ -9,8 +9,8 @@ import UIKit
 import SwiftUI
 
 class NotFoundView: UIView {
-    private lazy var warningLogo = CustomImage()
-    lazy var messageStack = CustomStack(axis: .vertical, aligment: .center, distribution: .fill, spacing: 20)
+    private lazy var warningLogo = ImageCustom()
+    lazy var messageStack = StackCustom(axis: .vertical, aligment: .center, distribution: .fill, spacing: 20)
     lazy var message1 = CustomLabel()
     lazy var message2 = CustomLabel()
     
