@@ -17,8 +17,8 @@ class TabBarViewController: UITabBarController {
     
     private func setupTabs() {
         let moviesList = createNav(with: "Peliculas", and: UIImage(systemName: "square.split.2x2.fill"), viewController: MoviesListViewController())
-        let moviesFavorites = createNav(with: "Favoritos", and: UIImage(systemName: "star"), viewController: FavoritesMoviesViewController())
-        setViewControllers([moviesList, moviesFavorites], animated: true)
+        //let moviesFavorites = createNav(with: "Favoritos", and: UIImage(systemName: "star"), viewController: FavoritesMoviesViewController())
+        //setViewControllers([moviesList, moviesFavorites], animated: true)
     }
     
     private func createNav(with title: String, and image: UIImage?, viewController: UIViewController) -> UINavigationController {
