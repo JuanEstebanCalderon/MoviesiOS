@@ -27,7 +27,6 @@
 		9B9AE00C2CD5629C004E3A2E /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B9AE00B2CD56294004E3A2E /* APIClient.swift */; };
 		9B9AE00E2CD56496004E3A2E /* MoviesListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B9AE00D2CD5648B004E3A2E /* MoviesListView.swift */; };
 		9BAFD8582CD295F9007579F6 /* MoviesListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BAFD8572CD295F9007579F6 /* MoviesListViewController.swift */; };
-		9BAFD85A2CD2960F007579F6 /* FavoritesMoviesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BAFD8592CD2960F007579F6 /* FavoritesMoviesViewController.swift */; };
 		9BF9E09D2CD13C430088BBFF /* NotFoundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF9E09C2CD13C240088BBFF /* NotFoundView.swift */; };
 		9BF9E09F2CD149080088BBFF /* SearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF9E09E2CD149000088BBFF /* SearchBarView.swift */; };
 /* End PBXBuildFile section */
@@ -54,7 +53,6 @@
 		9B9AE00B2CD56294004E3A2E /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
 		9B9AE00D2CD5648B004E3A2E /* MoviesListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesListView.swift; sourceTree = "<group>"; };
 		9BAFD8572CD295F9007579F6 /* MoviesListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesListViewController.swift; sourceTree = "<group>"; };
-		9BAFD8592CD2960F007579F6 /* FavoritesMoviesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesMoviesViewController.swift; sourceTree = "<group>"; };
 		9BC0B33D2CCB564300ECFB30 /* Movies.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Movies.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BF9E09C2CD13C240088BBFF /* NotFoundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotFoundView.swift; sourceTree = "<group>"; };
 		9BF9E09E2CD149000088BBFF /* SearchBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarView.swift; sourceTree = "<group>"; };
@@ -91,7 +89,6 @@
 				9B2A5C4D2CCFEE2B0025B4A4 /* MoviesViewController.swift */,
 				9B8F28022CCEBE920055C2A1 /* MovieDetailViewController.swift */,
 				9BAFD8572CD295F9007579F6 /* MoviesListViewController.swift */,
-				9BAFD8592CD2960F007579F6 /* FavoritesMoviesViewController.swift */,
 				9B5178BA2CD287FF007C7F88 /* TabBarViewController.swift */,
 			);
 			path = ViewControllers;
@@ -269,7 +266,6 @@
 				9B30457B2CDD241C00C95F35 /* SubTitleLabel.swift in Sources */,
 				9B8F28012CCEBE1C0055C2A1 /* Movie.swift in Sources */,
 				9B11CA1C2CCBD5000048B295 /* AppDelegate.swift in Sources */,
-				9BAFD85A2CD2960F007579F6 /* FavoritesMoviesViewController.swift in Sources */,
 				9BF9E09D2CD13C430088BBFF /* NotFoundView.swift in Sources */,
 				9B1C9F932CCD75FC002D3108 /* ImageCustom.swift in Sources */,
 				9B1C9F912CCD72BB002D3108 /* StackCustom.swift in Sources */,
