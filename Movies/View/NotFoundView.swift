@@ -11,8 +11,8 @@ import SwiftUI
 class NotFoundView: UIView {
     private lazy var warningLogo = ImageCustom()
     lazy var messageStack = StackCustom(axis: .vertical, aligment: .center, distribution: .fill, spacing: 20)
-    lazy var message1 = CustomLabel()
-    lazy var message2 = CustomLabel()
+    lazy var message1 = WarningInfoLabel(text: "No se encontraron resultados para la busqueda de: ")
+    lazy var message2 = WarningInfoLabel()
     
     override init(frame: CGRect) {
         super.init(frame: frame)
@@ -27,11 +27,6 @@ class NotFoundView: UIView {
 
 extension NotFoundView {
     private func style() {
-        message1.text = "No se encontraron resultados para la busqueda de: "
-        message1.textAlignment = .center
-        message1.font = .italicSystemFont(ofSize: 20)
-        message2.textAlignment = .center
-        message2.font = .italicSystemFont(ofSize: 20)
         warningLogo.image = .init(systemName: "exclamationmark.triangle")
     }
     private func layout() {
